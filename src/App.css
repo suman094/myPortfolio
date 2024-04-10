@@ -1,0 +1,22 @@
+:root{
+    --bg-primary:#020916;
+    --bg-blue: #06152B;
+}
+*{
+    font-family: "Syne", sans-serif;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.bg-primary{
+    background-color: var(--bg-primary);
+}
+
+nav{
+    z-index: 99;
+}
+
+.bg-blue{
+    background-color: var(--bg-blue);
+}
